@@ -1,0 +1,9 @@
+Node
+Para la base de datos  c:/archivos de programa/mongo y ejecutar mongo.exeC
+Crear la bd:
+use agenda_db
+Luego:
+db.usuarios.insertMany([{ email: 'demo@mail.com', user: "demo", password: "123456"}, { email: 'david@hotmail.com', user: "david", password: "123456"}])
+
+luego ejecutar nodejs en la carpeta server en el archivo index.js ejecutando por la consola
+node index.js
